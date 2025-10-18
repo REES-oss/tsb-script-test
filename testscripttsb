@@ -1,0 +1,850 @@
+
+local fzhubpcv4 = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local ScriptFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local FarmKillsButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local InfoButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local MinimizeButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TitleImage = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local AutoResetButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SetSpawnButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local OptimizationButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local RejoinButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TpButton = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local InformationFrame = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local AutoClaimButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+
+--Properties:
+
+fzhubpcv4.Name = "fz hub pcv4"
+fzhubpcv4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+fzhubpcv4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+fzhubpcv4.ResetOnSpawn = false
+
+ImageButton.Parent = fzhubpcv4
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.00942441728, 0, 0.432587326, 0)
+ImageButton.Size = UDim2.new(0, 85, 0, 81)
+ImageButton.Visible = false
+ImageButton.Image = "rbxassetid://132782852102479"
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = fzhubpcv4
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(23, 21, 31)
+ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptFrame.BorderSizePixel = 0
+ScriptFrame.Position = UDim2.new(0.396078765, 0, 0.147368401, 0)
+ScriptFrame.Size = UDim2.new(0, 419, 0, 478)
+
+UICorner.Parent = ScriptFrame
+
+Title.Name = "Title"
+Title.Parent = ScriptFrame
+Title.BackgroundColor3 = Color3.fromRGB(23, 21, 31)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.235976189, 0, 0.0107216937, 0)
+Title.Size = UDim2.new(0, 153, 0, 20)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "Fz Hub v2"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 23.000
+Title.TextWrapped = true
+
+FarmKillsButton.Name = "FarmKillsButton"
+FarmKillsButton.Parent = ScriptFrame
+FarmKillsButton.BackgroundColor3 = Color3.fromRGB(34, 37, 80)
+FarmKillsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FarmKillsButton.BorderSizePixel = 0
+FarmKillsButton.Position = UDim2.new(0, 0, 0.0665137619, 0)
+FarmKillsButton.Size = UDim2.new(0, 203, 0, 33)
+FarmKillsButton.Font = Enum.Font.SourceSansBold
+FarmKillsButton.Text = "Farm Kills"
+FarmKillsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FarmKillsButton.TextSize = 19.000
+
+UICorner_2.Parent = FarmKillsButton
+
+InfoButton.Name = "InfoButton"
+InfoButton.Parent = ScriptFrame
+InfoButton.BackgroundColor3 = Color3.fromRGB(34, 37, 80)
+InfoButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfoButton.BorderSizePixel = 0
+InfoButton.Position = UDim2.new(0.502980947, 0, 0.0665137619, 0)
+InfoButton.Size = UDim2.new(0, 208, 0, 33)
+InfoButton.Font = Enum.Font.SourceSansBold
+InfoButton.Text = "Information"
+InfoButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfoButton.TextSize = 19.000
+
+UICorner_3.Parent = InfoButton
+
+MinimizeButton.Name = "MinimizeButton"
+MinimizeButton.Parent = ScriptFrame
+MinimizeButton.BackgroundColor3 = Color3.fromRGB(45, 47, 74)
+MinimizeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MinimizeButton.BorderSizePixel = 0
+MinimizeButton.Position = UDim2.new(0.920439303, 0, 0, 0)
+MinimizeButton.Size = UDim2.new(0, 33, 0, 31)
+MinimizeButton.Font = Enum.Font.SourceSans
+MinimizeButton.Text = "-"
+MinimizeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MinimizeButton.TextSize = 37.000
+MinimizeButton.TextWrapped = true
+
+UICorner_4.Parent = MinimizeButton
+
+TitleImage.Name = "TitleImage"
+TitleImage.Parent = ScriptFrame
+TitleImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TitleImage.BorderSizePixel = 0
+TitleImage.Position = UDim2.new(0.340403855, 0, 0.427153766, 0)
+TitleImage.Size = UDim2.new(0, 133, 0, -124)
+TitleImage.Image = "rbxassetid://132782852102479"
+
+UICorner_5.Parent = TitleImage
+
+AutoResetButton.Name = "AutoResetButton"
+AutoResetButton.Parent = ScriptFrame
+AutoResetButton.BackgroundColor3 = Color3.fromRGB(96, 46, 158)
+AutoResetButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoResetButton.BorderSizePixel = 0
+AutoResetButton.Position = UDim2.new(0.10709805, 0, 0.46601671, 0)
+AutoResetButton.Size = UDim2.new(0, 329, 0, 31)
+AutoResetButton.Font = Enum.Font.SourceSansBold
+AutoResetButton.Text = "AutoReset: OFF"
+AutoResetButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoResetButton.TextSize = 18.000
+
+UICorner_6.Parent = AutoResetButton
+
+SetSpawnButton.Name = "SetSpawnButton"
+SetSpawnButton.Parent = ScriptFrame
+SetSpawnButton.BackgroundColor3 = Color3.fromRGB(96, 46, 158)
+SetSpawnButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SetSpawnButton.BorderSizePixel = 0
+SetSpawnButton.Position = UDim2.new(0.1049155, 0, 0.542798042, 0)
+SetSpawnButton.Size = UDim2.new(0, 329, 0, 31)
+SetSpawnButton.Font = Enum.Font.SourceSansBold
+SetSpawnButton.Text = "Set Spawn"
+SetSpawnButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSpawnButton.TextSize = 18.000
+
+UICorner_7.Parent = SetSpawnButton
+
+OptimizationButton.Name = "OptimizationButton"
+OptimizationButton.Parent = ScriptFrame
+OptimizationButton.BackgroundColor3 = Color3.fromRGB(96, 46, 158)
+OptimizationButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OptimizationButton.BorderSizePixel = 0
+OptimizationButton.Position = UDim2.new(0.105542898, 0, 0.701832354, 0)
+OptimizationButton.Size = UDim2.new(0, 329, 0, 31)
+OptimizationButton.Font = Enum.Font.SourceSansBold
+OptimizationButton.Text = "Optimization"
+OptimizationButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OptimizationButton.TextSize = 18.000
+
+UICorner_8.Parent = OptimizationButton
+
+RejoinButton.Name = "RejoinButton"
+RejoinButton.Parent = ScriptFrame
+RejoinButton.BackgroundColor3 = Color3.fromRGB(96, 46, 158)
+RejoinButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RejoinButton.BorderSizePixel = 0
+RejoinButton.Position = UDim2.new(0.103156261, 0, 0.782830298, 0)
+RejoinButton.Size = UDim2.new(0, 329, 0, 31)
+RejoinButton.Font = Enum.Font.SourceSansBold
+RejoinButton.Text = "Rejoin"
+RejoinButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+RejoinButton.TextSize = 18.000
+
+UICorner_9.Parent = RejoinButton
+
+TpButton.Name = "TpButton"
+TpButton.Parent = ScriptFrame
+TpButton.BackgroundColor3 = Color3.fromRGB(96, 46, 158)
+TpButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TpButton.BorderSizePixel = 0
+TpButton.Position = UDim2.new(0.104126997, 0, 0.624131441, 0)
+TpButton.Size = UDim2.new(0, 329, 0, 31)
+TpButton.Font = Enum.Font.SourceSansBold
+TpButton.Text = "Teleport"
+TpButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpButton.TextSize = 18.000
+
+UICorner_10.Parent = TpButton
+
+InformationFrame.Name = "InformationFrame"
+InformationFrame.Parent = ScriptFrame
+InformationFrame.BackgroundColor3 = Color3.fromRGB(23, 21, 31)
+InformationFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InformationFrame.BorderSizePixel = 0
+InformationFrame.Position = UDim2.new(0, 0, 0.166368946, 0)
+InformationFrame.Size = UDim2.new(0, 418, 0, 398)
+InformationFrame.Visible = false
+
+UICorner_11.Parent = InformationFrame
+
+ImageLabel.Parent = InformationFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(23, 21, 31)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0265507307, 0, 0.032041464, 0)
+ImageLabel.Size = UDim2.new(0, 70, 0, 63)
+ImageLabel.Image = "rbxassetid://132782852102479"
+
+UICorner_12.Parent = ImageLabel
+
+TextLabel.Parent = InformationFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(23, 21, 31)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.193636522, 0, 0.0539073832, 0)
+TextLabel.Size = UDim2.new(0, 93, 0, 20)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Fz Hub v2"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 21.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = InformationFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(23, 21, 31)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.193636522, 0, 0.1236149, 0)
+TextLabel_2.Size = UDim2.new(0, 101, 0, 12)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Status: 🟢"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 21.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = InformationFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(23, 21, 31)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.252331883, 0, 0.482619405, 0)
+TextLabel_3.Size = UDim2.new(0, 207, 0, 63)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Nothing to put here lol hi pc users"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 21.000
+TextLabel_3.TextWrapped = true
+
+AutoClaimButton.Name = "AutoClaimButton"
+AutoClaimButton.Parent = ScriptFrame
+AutoClaimButton.BackgroundColor3 = Color3.fromRGB(96, 46, 158)
+AutoClaimButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoClaimButton.BorderSizePixel = 0
+AutoClaimButton.Position = UDim2.new(0.105542898, 0, 0.866512299, 0)
+AutoClaimButton.Size = UDim2.new(0, 329, 0, 31)
+AutoClaimButton.Font = Enum.Font.SourceSansBold
+AutoClaimButton.Text = "AutoClaim Emote"
+AutoClaimButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoClaimButton.TextSize = 18.000
+
+UICorner_13.Parent = AutoClaimButton
+
+-- Scripts:
+
+local function GNDRE_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	
+	
+	local TweenService = game:GetService("TweenService")
+	
+	-- UI references
+	local imageButton = script.Parent
+	local screenGui = imageButton.Parent
+	local mainFrame = screenGui:WaitForChild("ScriptFrame")
+	
+	-- Sounds
+	local hoverSound = imageButton:FindFirstChild("HoverSound")
+	local clickSound = imageButton:FindFirstChild("ClickSound")
+	
+	-- Initial states
+	mainFrame.Visible = false
+	mainFrame.BackgroundTransparency = 1
+	
+	-- Tween settings
+	local tweenInfo = TweenInfo.new(0.8, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+	local hoverTweenInfo = TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+	
+	-- // Hover effect
+	imageButton.MouseEnter:Connect(function()
+		-- Play hover sound
+		if hoverSound then hoverSound:Play() end
+	
+		-- Slightly shrink and dim the image
+		local shrinkTween = TweenService:Create(imageButton, hoverTweenInfo, {
+			Size = imageButton.Size - UDim2.new(0, 4, 0, 4),
+			ImageColor3 = Color3.fromRGB(200, 200, 200)
+		})
+		shrinkTween:Play()
+	end)
+	
+	-- // Mouse leaves (reset hover)
+	imageButton.MouseLeave:Connect(function()
+		local resetTween = TweenService:Create(imageButton, hoverTweenInfo, {
+			Size = imageButton.Size + UDim2.new(0, 4, 0, 4),
+			ImageColor3 = Color3.fromRGB(255, 255, 255)
+		})
+		resetTween:Play()
+	end)
+	
+	-- // Click effect (fade in frame + click sound)
+	imageButton.MouseButton1Click:Connect(function()
+		-- Play click sound
+		if clickSound then clickSound:Play() end
+	
+		-- Hide the button
+		imageButton.Visible = false
+	
+		-- Make frame visible so it can fade in
+		mainFrame.Visible = true
+	
+		-- Fade in the frame
+		local fadeInTween = TweenService:Create(mainFrame, tweenInfo, {BackgroundTransparency = 0})
+		fadeInTween:Play()
+	
+		-- Fade in all UI elements inside
+		for _, object in pairs(mainFrame:GetDescendants()) do
+			if object:IsA("TextLabel") or object:IsA("TextButton") or object:IsA("ImageLabel") or object:IsA("ImageButton") then
+				object.BackgroundTransparency = 1
+				if object:IsA("TextLabel") or object:IsA("TextButton") then
+					object.TextTransparency = 1
+				end
+	
+				local props = {BackgroundTransparency = 0}
+				if object:IsA("TextLabel") or object:IsA("TextButton") then
+					props.TextTransparency = 0
+				end
+	
+				local tween = TweenService:Create(object, tweenInfo, props)
+				tween:Play()
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(GNDRE_fake_script)()
+local function RBQPNS_fake_script() -- ScriptFrame.drag 
+	local script = Instance.new('LocalScript', ScriptFrame)
+
+	local UI = script.Parent
+	
+	local Dragging
+	local Input
+	local Start
+	local StartPosition
+	
+	function Lerp(A, B, M)
+		return A + (B - A) * M
+	end
+	
+	local LMPos
+	local LGPos
+	
+	local Speed = 13
+	
+	function Update(Time)
+		if not StartPosition then
+			return
+		end
+	
+		if not Dragging and LGPos then
+			UI.Position = UDim2.new(StartPosition.X.Scale, Lerp(UI.Position.X.Offset, LGPos.X.Offset, Time * Speed), StartPosition.Y.Scale, Lerp(UI.Position.Y.Offset, LGPos.Y.Offset, Time * Speed))
+			return
+		end
+	
+		local Delta = (LMPos - game:GetService("UserInputService"):GetMouseLocation())
+	
+		local xGoal = (StartPosition.X.Offset - Delta.X)
+		local yGoal = (StartPosition.Y.Offset - Delta.Y)
+	
+		LGPos = UDim2.new(StartPosition.X.Scale, xGoal, StartPosition.Y.Scale, yGoal)
+		UI.Position = UDim2.new(StartPosition.X.Scale, Lerp(UI.Position.X.Offset, xGoal, Time * Speed), StartPosition.Y.Scale, Lerp(UI.Position.Y.Offset, yGoal, Time * Speed))
+	end
+	
+	UI.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Dragging = true
+			Start = input.Position
+			StartPosition = UI.Position
+			LMPos = game:GetService("UserInputService"):GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					Dragging = false
+				end
+			end)
+		end
+	end)
+	
+	UI.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			Input = input
+		end
+	end)
+	
+	game:GetService("RunService").Heartbeat:Connect(Update)
+end
+coroutine.wrap(RBQPNS_fake_script)()
+local function FAORI_fake_script() -- InfoButton.LocalScript 
+	local script = Instance.new('LocalScript', InfoButton)
+
+	
+	local button = script.Parent
+	local frame = script.Parent.Parent:WaitForChild("InformationFrame") -- change "Frame" if named differently
+	
+	-- optional: start hidden
+	frame.Visible = false
+	frame.BackgroundTransparency = 1
+	
+	-- tween service for smooth fade
+	local TweenService = game:GetService("TweenService")
+	
+	-- settings
+	local fadeTime = 0.3 -- seconds for fade animation
+	
+	-- function to fade in
+	local function fadeIn()
+		frame.Visible = true
+		local tween = TweenService:Create(frame, TweenInfo.new(fadeTime), {BackgroundTransparency = 0})
+		tween:Play()
+	end
+	
+	-- function to fade out
+	local function fadeOut()
+		local tween = TweenService:Create(frame, TweenInfo.new(fadeTime), {BackgroundTransparency = 1})
+		tween:Play()
+		tween.Completed:Connect(function()
+			frame.Visible = false
+		end)
+	end
+	
+	-- toggle on button click
+	local isVisible = false
+	button.MouseButton1Click:Connect(function()
+		isVisible = not isVisible
+		if isVisible then
+			fadeIn()
+		else
+			fadeOut()
+		end
+	end)
+	
+end
+coroutine.wrap(FAORI_fake_script)()
+local function JRQXOQW_fake_script() -- MinimizeButton.LocalScript 
+	local script = Instance.new('LocalScript', MinimizeButton)
+
+	
+	local button = script.Parent
+	local mainFrame = button.Parent -- MainFrame
+	local screenGui = mainFrame.Parent -- ScreenGui
+	local imageButton = screenGui:WaitForChild("ImageButton")
+	
+	button.MouseButton1Click:Connect(function()
+		mainFrame.Visible = false
+		imageButton.Visible = true
+	end)
+	
+end
+coroutine.wrap(JRQXOQW_fake_script)()
+local function MLAOQ_fake_script() -- AutoResetButton.LocalScript 
+	local script = Instance.new('LocalScript', AutoResetButton)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	
+	-- Auto Reset and Stuck System
+	local autoResetEnabled = false
+	local connection
+	local characterAddedConnection
+	
+	-- Stuck system variables
+	local stuckPosition = nil
+	local loopConnection = nil
+	
+	------------------------------------------------
+	-- Helper Functions
+	------------------------------------------------
+	
+	-- Freeze player movement
+	local function disableMovement()
+		local character = player.Character
+		if not character then return end
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			humanoid.WalkSpeed = 0
+			humanoid.JumpPower = 0
+		end
+	end
+	
+	-- Restore player movement
+	local function enableMovement()
+		local character = player.Character
+		if not character then return end
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			humanoid.WalkSpeed = 16
+			humanoid.JumpPower = 50
+		end
+	end
+	
+	-- Start Stuck Loop (keeps player at same position)
+	local function startStuckLoop()
+		if loopConnection then
+			loopConnection:Disconnect()
+		end
+	
+		loopConnection = RunService.Heartbeat:Connect(function()
+			if player.Character and player.Character:FindFirstChild("HumanoidRootPart") and stuckPosition then
+				player.Character:MoveTo(stuckPosition)
+			end
+		end)
+	end
+	
+	-- Stop the stuck loop
+	local function stopStuckLoop()
+		if loopConnection then
+			loopConnection:Disconnect()
+			loopConnection = nil
+		end
+	end
+	
+	------------------------------------------------
+	-- Main AutoReset + Stuck Toggle
+	------------------------------------------------
+	local function toggleAutoReset()
+		autoResetEnabled = not autoResetEnabled
+	
+		if autoResetEnabled then
+			button.Text = "AutoReset: ON"
+	
+			-- Save player position when activated
+			local char = player.Character
+			if char and char:FindFirstChild("HumanoidRootPart") then
+				stuckPosition = char.HumanoidRootPart.Position
+				startStuckLoop()
+			end
+	
+			-- Function to handle humanoid setup
+			local function setupHumanoid(humanoid)
+				if connection then
+					connection:Disconnect()
+				end
+	
+				connection = humanoid.HealthChanged:Connect(function(health)
+					if autoResetEnabled and health < humanoid.MaxHealth then
+						-- Instantly kill (auto-reset)
+						humanoid.Health = 0
+						disableMovement()
+					end
+				end)
+	
+				humanoid.Died:Connect(function()
+					disableMovement()
+				end)
+			end
+	
+			-- Setup current character
+			if player.Character then
+				local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+				if humanoid then
+					setupHumanoid(humanoid)
+				end
+			end
+	
+			-- Handle respawn
+			if characterAddedConnection then
+				characterAddedConnection:Disconnect()
+			end
+	
+			characterAddedConnection = player.CharacterAdded:Connect(function(char)
+				local humanoid = char:WaitForChild("Humanoid")
+				local root = char:WaitForChild("HumanoidRootPart")
+	
+				------------------------------------------------
+				-- 🧊 NEW SECTION: Freeze on reset, then unfreeze
+				------------------------------------------------
+				task.wait(0.5)
+				stuckPosition = root.Position
+				disableMovement()
+				startStuckLoop()
+	
+				-- Auto-unfreeze after a few seconds
+				local freezeDuration = 3 -- ⏳ Change this number if you want longer/shorter freeze
+				task.delay(freezeDuration, function()
+					stopStuckLoop()
+					enableMovement()
+				end)
+				------------------------------------------------
+	
+				setupHumanoid(humanoid)
+			end)
+	
+		else
+			button.Text = "AutoReset: OFF"
+	
+			-- Disconnect everything
+			if connection then
+				connection:Disconnect()
+				connection = nil
+			end
+			if characterAddedConnection then
+				characterAddedConnection:Disconnect()
+				characterAddedConnection = nil
+			end
+	
+			stuckPosition = nil
+			stopStuckLoop()
+			enableMovement()
+		end
+	end
+	
+	------------------------------------------------
+	-- Setup Button
+	------------------------------------------------
+	button.MouseButton1Click:Connect(toggleAutoReset)
+	button.Text = "AutoReset: OFF"
+	
+end
+coroutine.wrap(MLAOQ_fake_script)()
+local function TLIUGW_fake_script() -- SetSpawnButton.LocalScript 
+	local script = Instance.new('LocalScript', SetSpawnButton)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	local stuckEnabled = false
+	local stuckPosition = nil
+	local loopConnection = nil
+	
+	local function startStuckLoop()
+		if loopConnection then
+			loopConnection:Disconnect()
+		end
+	
+		loopConnection = game:GetService("RunService").Heartbeat:Connect(function()
+			if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+				player.Character:MoveTo(stuckPosition)
+			end
+		end)
+	end
+	
+	
+	local function onCharacterAdded(character)
+		if stuckEnabled and stuckPosition then
+	
+			character:WaitForChild("HumanoidRootPart")
+			startStuckLoop()
+		end
+	end
+	
+	local function toggleStuck()
+		stuckEnabled = not stuckEnabled
+	
+		if stuckEnabled then
+			button.Text = "SetSpawn"
+	
+	
+			local char = player.Character
+			if char and char:FindFirstChild("HumanoidRootPart") then
+				stuckPosition = char.HumanoidRootPart.Position
+				startStuckLoop()
+			end
+	
+			player.CharacterAdded:Connect(onCharacterAdded)
+		else
+			button.Text = "SetSpawn"
+			stuckPosition = nil
+			if loopConnection then
+				loopConnection:Disconnect()
+				loopConnection = nil
+			end
+		end
+	end
+	
+	button.MouseButton1Click:Connect(toggleStuck)
+	
+end
+coroutine.wrap(TLIUGW_fake_script)()
+local function QYAKLM_fake_script() -- OptimizationButton.LocalScript 
+	local script = Instance.new('LocalScript', OptimizationButton)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local StarterGui = game:GetService("StarterGui")
+	local player = Players.LocalPlayer
+	
+	local clicked = false
+	
+	button.MouseButton1Click:Connect(function()
+		if clicked then return end
+		clicked = true
+	
+		-- Delete parts inside workspace.Map
+		local map = workspace:FindFirstChild("Map")
+		if map then
+			local trees = map:FindFirstChild("Trees")
+			local walls = map:FindFirstChild("Walls")
+			local grasstop = map:FindFirstChild("GrassTop")
+	
+			if grasstop then
+				grasstop:Destroy()
+			end
+			if trees then
+				trees:Destroy()
+			end
+			if walls then
+				walls:Destroy()
+			end
+		end
+	
+		-- Delete the "Thrown" folder in workspace
+		local thrownFolder = workspace:FindFirstChild("Thrown")
+		if thrownFolder then
+			thrownFolder:Destroy()
+		end
+	
+		-- Change button properties
+		button.Text = "Optimization"
+		button.Active = false
+		button.AutoButtonColor = false
+	
+		-- Send notification
+		StarterGui:SetCore("SendNotification", {
+			Title = "SYSTEM SAYS:",
+			Text = "Successfully made your game smoother !",
+			Duration = 4
+		})
+	end)
+	
+end
+coroutine.wrap(QYAKLM_fake_script)()
+local function KTBXB_fake_script() -- RejoinButton.LocalScript 
+	local script = Instance.new('LocalScript', RejoinButton)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local TeleportService = game:GetService("TeleportService")
+		local Players = game:GetService("Players")
+		local player = Players.LocalPlayer
+		local placeId = game.PlaceId
+	
+		TeleportService:Teleport(placeId, player)
+	end)
+	
+end
+coroutine.wrap(KTBXB_fake_script)()
+local function GDFEQFB_fake_script() -- TpButton.LocalScript 
+	local script = Instance.new('LocalScript', TpButton)
+
+	
+	
+	local button = script.Parent
+	local targetPosition = Vector3.new(-139, 440, -391)
+	
+	button.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+	
+		-- Teleport the player
+		humanoidRootPart.CFrame = CFrame.new(targetPosition)
+	end)
+	
+end
+coroutine.wrap(GDFEQFB_fake_script)()
+local function NTZVIZ_fake_script() -- AutoClaimButton.LocalScript 
+	local script = Instance.new('LocalScript', AutoClaimButton)
+
+	
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	--// Function to find GUI elements safely
+	local function getSpinButton()
+		local playerGui = player:FindFirstChild("PlayerGui")
+		if not playerGui then return nil end
+	
+		local emotesGui = playerGui:FindFirstChild("Emotes")
+		if not emotesGui then return nil end
+	
+		local imageLabel = emotesGui:FindFirstChildWhichIsA("ImageLabel")
+		if not imageLabel then return nil end
+	
+		local spinButton = imageLabel:FindFirstChild("Spin")
+		return spinButton
+	end
+	
+	--// Function to handle Kills checking
+	local function setupKillListener(spinButton)
+		local leaderstats = player:FindFirstChild("leaderstats")
+		if not leaderstats then
+			warn("leaderstats not found for player!")
+			return
+		end
+	
+		local kills = leaderstats:FindFirstChild("Kills")
+		if not kills then
+			warn("Kills stat not found!")
+			return
+		end
+	
+		kills:GetPropertyChangedSignal("Value"):Connect(function()
+			if spinButton and spinButton:IsA("TextButton") then
+				-- Simulate clicking the Spin button
+				spinButton:Activate()
+				print("Spin button clicked automatically due to Kills change!")
+			end
+		end)
+	end
+	
+	--// Main logic
+	button.MouseButton1Click:Connect(function()
+		local spinButton = getSpinButton()
+		if spinButton then
+			setupKillListener(spinButton)
+			print("Spin listener setup complete!")
+		else
+			warn("Spin button not found! Make sure Emotes > ImageLabel > Spin exists.")
+		end
+	end)
+	
+end
+coroutine.wrap(NTZVIZ_fake_script)()
